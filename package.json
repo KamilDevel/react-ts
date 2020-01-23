@@ -1,0 +1,38 @@
+{
+  "name": "react-ts",
+  "version": "1.0.0",
+  "description": "React / TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KamilDevel/react-ts.git"
+  },
+  "keywords": [
+    "React",
+    "TypeScript"
+  ],
+  "author": "Kamil Badura <kamil.devel@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KamilDevel/react-ts/issues"
+  },
+  "homepage": "https://github.com/KamilDevel/react-ts#readme",
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@types/node": "^13.1.8",
+    "@types/react": "^16.9.18",
+    "@types/react-dom": "^16.9.5",
+    "prop-types": "^15.7.2",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.5",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
